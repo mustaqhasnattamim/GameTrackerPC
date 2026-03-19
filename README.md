@@ -31,7 +31,7 @@ If you want to clone the code, modify the CSS, or build the executable yourself:
 
 ```bash
 # Clone this repository
-git clone [https://github.com/mustaqhasnattamim/GameTrackerPC.git](https://github.com/mustaqhasnattamim/GameTrackerPC.git)
+git clone https://github.com/mustaqhasnattamim/GameTrackerPC.git
 
 # Go into the repository
 cd GameTrackerPC
