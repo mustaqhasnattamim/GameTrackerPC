@@ -45,6 +45,18 @@ Click **★ MARK AS FINISHED**.
 * If you were Auto-Tracking, the app locks in your final time and stamps today's date.
 * If you were Manual-Tracking, a prompt will ask you to confirm the exact date you rolled the credits.
 
+⚠️ Limitations & Known Issues
+Windows Exclusive: Because the Auto-Tracker relies on the Windows tasklist command, background .exe tracking is currently only supported on Windows OS.
+
+Process Names: The scanner detects the actual executable name (e.g., re8.exe), not the display name (e.g., Resident Evil Village). You must have the game currently running to select it from the tracking dropdown.
+
+Chromium Throttling: While backgroundThrottling is disabled in the Electron backend, extreme CPU loads (e.g., benchmarking) might slightly delay UI state updates until the system resources free up. (Playtime accuracy remains unaffected due to Delta Time math).
+
+👨‍💻 Developed By
+Mustaq Hasnat Tamim Department of Environmental Science and Geography
+
+Islamic University, Bangladesh
+
 ---
 
 ## 🛠️ Installation
@@ -69,15 +81,3 @@ npm run dev
 
 # Build the final Windows executable
 npm run build:win
-
-⚠️ Limitations & Known Issues
-Windows Exclusive: Because the Auto-Tracker relies on the Windows tasklist command, background .exe tracking is currently only supported on Windows OS.
-
-Process Names: The scanner detects the actual executable name (e.g., re8.exe), not the display name (e.g., Resident Evil Village). You must have the game currently running to select it from the tracking dropdown.
-
-Chromium Throttling: While backgroundThrottling is disabled in the Electron backend, extreme CPU loads (e.g., benchmarking) might slightly delay UI state updates until the system resources free up. (Playtime accuracy remains unaffected due to Delta Time math).
-
-👨‍💻 Developed By
-Mustaq Hasnat Tamim Department of Environmental Science and Geography
-
-Islamic University, Bangladesh
