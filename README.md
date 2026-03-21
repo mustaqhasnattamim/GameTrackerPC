@@ -58,6 +58,9 @@ Mustaq Hasnat Tamim Department of Environmental Science and Geography
 Islamic University, Bangladesh
 
 ---
+<img width="1920" height="1032" alt="Screenshot 2026-03-22 010311" src="https://github.com/user-attachments/assets/d4c5d898-77f4-4305-bc27-97ae60489447" />
+<img width="1920" height="1032" alt="Screenshot 2026-03-22 010243" src="https://github.com/user-attachments/assets/8b2af0b7-7feb-4110-8f78-9de11a6f5a2d" />
+<img width="1920" height="1032" alt="Screenshot 2026-03-22 010234" src="https://github.com/user-attachments/assets/ce24e68c-9001-4578-a68c-c08c73e74b3e" />
 
 ## 🛠️ Installation
 
@@ -68,7 +71,7 @@ Islamic University, Bangladesh
 **For Developers:**
 ```bash
 # Clone the repository
-git clone [https://github.com/mustaqhasnattamim/GameTrackerPC.git](https://github.com/mustaqhasnattamim/GameTrackerPC.git)
+git clone https://github.com/mustaqhasnattamim/GameTrackerPC.git
 
 # Navigate into the directory
 cd GameTrackerPC
