@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+  <game>
+    <id>1</id>
+    <title>Resident Evil HD Remaster</title>
+    <focus>The mansion incident that starts it all</focus>
+    <year>2015</year>
+    <time>11</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>2</id>
+    <title>Prince of Persia: The Sands of Time</title>
+    <focus>The classic acrobatic puzzle platformer</focus>
+    <year>2003</year>
+    <time>9</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>3</id>
+    <title>Assassin&apos;s Creed</title>
+    <focus>The foundation of the Brotherhood</focus>
+    <year>2007</year>
+    <time>15</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>4</id>
+    <title>Devil May Cry 3: Special Edition</title>
+    <focus>Fast, stylish hack-and-slash prequel</focus>
+    <year>2005</year>
+    <time>12</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>5</id>
+    <title>Devil May Cry</title>
+    <focus>Continuing Dante&apos;s awakening</focus>
+    <year>2001</year>
+    <time>9</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>6</id>
+    <title>Resident Evil 2 Remake</title>
+    <focus>A tight, atmospheric survival horror shift</focus>
+    <year>2019</year>
+    <time>9</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>7</id>
+    <title>Batman: Arkham Asylum</title>
+    <focus>Laying the superhero brawler foundation</focus>
+    <year>2009</year>
+    <time>12</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>8</id>
+    <title>Assassin&apos;s Creed II</title>
+    <focus>Starting the stealthy historical Ezio trilogy</focus>
+    <year>2009</year>
+    <time>19</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>9</id>
+    <title>Prince of Persia: Warrior Within</title>
+    <focus>The dark, heavy-metal sequel</focus>
+    <year>2004</year>
+    <time>12</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>10</id>
+    <title>Far Cry 3</title>
+    <focus>A chaotic FPS island getaway</focus>
+    <year>2012</year>
+    <time>15</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>11</id>
+    <title>Resident Evil 3 Remake</title>
+    <focus>Short, explosive horror action</focus>
+    <year>2020</year>
+    <time>6</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>12</id>
+    <title>Batman: Arkham City</title>
+    <focus>The superhero epic expands</focus>
+    <year>2011</year>
+    <time>14</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>13</id>
+    <title>Assassin&apos;s Creed: Brotherhood</title>
+    <focus>Directly continuing Ezio&apos;s story</focus>
+    <year>2010</year>
+    <time>15</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>14</id>
+    <title>Prince of Persia: The Two Thrones</title>
+    <focus>The grand finale of the time trilogy</focus>
+    <year>2005</year>
+    <time>10</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>15</id>
+    <title>Devil May Cry 4: Special Edition</title>
+    <focus>Introducing a new DMC protagonist</focus>
+    <year>2015</year>
+    <time>12</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>16</id>
+    <title>Far Cry 5</title>
+    <focus>A massive, modern open-world detour</focus>
+    <year>2018</year>
+    <time>18</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>17</id>
+    <title>Resident Evil 4 Remake</title>
+    <focus>The ultimate action-horror masterpiece</focus>
+    <year>2023</year>
+    <time>16</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>18</id>
+    <title>Assassin&apos;s Creed: Revelations</title>
+    <focus>The emotional finale of the Ezio trilogy</focus>
+    <year>2011</year>
+    <time>12</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>19</id>
+    <title>Assassin&apos;s Creed III Remastered</title>
+    <focus>Wrapping up the modern-day story</focus>
+    <year>2019</year>
+    <time>16</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>20</id>
+    <title>Batman: Arkham Knight</title>
+    <focus>The dark, vehicle-heavy Batman finale</focus>
+    <year>2015</year>
+    <time>17</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>21</id>
+    <title>Resident Evil 7: Biohazard</title>
+    <focus>A terrifying first-person horror shift</focus>
+    <year>2017</year>
+    <time>9</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>22</id>
+    <title>Assassin&apos;s Creed IV: Black Flag</title>
+    <focus>A standalone pirate adventure</focus>
+    <year>2013</year>
+    <time>23</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>23</id>
+    <title>Devil May Cry 5</title>
+    <focus>The jaw-dropping hack-and-slash finale</focus>
+    <year>2019</year>
+    <time>11</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>24</id>
+    <title>Resident Evil Village</title>
+    <focus>The wild, snowy conclusion to RE7</focus>
+    <year>2021</year>
+    <time>10</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>25</id>
+    <title>Far Cry 6</title>
+    <focus>A giant sandbox to wrap up the marathon</focus>
+    <year>2021</year>
+    <time>23</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+  <game>
+    <id>1774018675049</id>
+    <title>Chrome</title>
+    <focus>Browser</focus>
+    <year>2000</year>
+    <time>20</time>
+    <status>unplayed</status>
+    <startDate></startDate>
+    <finishDate></finishDate>
+    <trackedSeconds>0</trackedSeconds>
+    <launchCount>0</launchCount>
+    <trackedExe></trackedExe>
+  </game>
+</games>

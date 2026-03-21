@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; user-select: none; }
+body { background-color: #0D0E15; color: #FFFFFF; overflow-x: hidden; }
+
+/* Desktop Header (Sticky with Glass effect) */
+.header-container { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; position: sticky; top: 0; background: rgba(13, 14, 21, 0.95); backdrop-filter: blur(12px); z-index: 1000; border-bottom: 1px solid #2A2E45; }
+.header-title { font-size: 32px; font-weight: 900; letter-spacing: 2px; }
+.header-highlight { color: #00E5FF; }
+
+.menu-container { position: relative; display: flex; align-items: center; }
+.menu-btn { background: none; border: none; color: #FFFFFF; font-size: 24px; cursor: pointer; padding: 5px 15px; opacity: 0.6; transition: 0.2s; border-radius: 8px; }
+.menu-btn:hover { opacity: 1; background: #1E2132; }
+.dropdown { position: absolute; right: 0; top: 110%; background: #151720; border: 1px solid #2A2E45; border-radius: 8px; overflow: hidden; z-index: 9999; min-width: 180px; box-shadow: 0 10px 25px rgba(0,0,0,0.8); }
+.dropdown-item { padding: 14px 18px; color: #C0CAF5; cursor: pointer; font-size: 13px; font-weight: 600; transition: background 0.2s; display: block; text-align: left; text-decoration: none; border: none; background: transparent; width: 100%; }
+.dropdown-item:hover { background: #2A2E45; color: #FFFFFF; }
+.btn-exit { color: #FF1744; border-top: 1px solid #2A2E45; } .btn-exit:hover { background: rgba(255, 23, 68, 0.1); }
+
+/* --- RESPONSIVE CSS GRID (SPACIOUS LAYOUT) --- */
+.main-content { padding: 30px 60px 60px 60px; }
+.games-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 35px; }
+
+/* PC Game Card (Breathing Room & Enhanced Shadows) */
+.game-card { background: #151720; padding: 25px; border-radius: 20px; border-left: 5px solid #2A2E45; position: relative; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+.game-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.4); }
+.card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; gap: 15px; }
+.game-title { font-size: 18px; font-weight: 900; line-height: 1.4; flex: 1; letter-spacing: 0.5px; }
+.action-group { display: flex; gap: 6px; }
+.icon-btn { padding: 8px 10px; border-radius: 8px; border: none; font-size: 10px; font-weight: 800; cursor: pointer; color: #FFF; transition: filter 0.2s; }
+.icon-btn:hover { filter: brightness(1.2); }
+.btn-move { background: #2A2E45; }
+.btn-edit { background: #FFD700; color: #000; }
+.btn-del { background: #FF1744; }
+
+.meta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+.tag { background: #1E2132; padding: 6px 12px; border-radius: 20px; color: #828BB8; font-size: 11px; font-weight: 700; }
+
+.date-box { display: flex; justify-content: space-between; background: #0D0E15; padding: 12px; border-radius: 8px; margin-bottom: 15px; }
+.date-col { display: flex; flex-direction: column; }
+.date-label { color: #4F5472; font-size: 10px; font-weight: 800; margin-bottom: 4px; }
+.date-value { color: #C0CAF5; font-size: 12px; font-weight: 700; }
+.days-label { color: #B000FF; }
+.days-value { color: #B000FF; font-size: 14px; font-weight: 900; }
+
+.status-btn { width: 100%; padding: 14px; border-radius: 10px; border: none; font-size: 12px; font-weight: 800; letter-spacing: 1px; cursor: pointer; transition: 0.2s; }
+.btn-start { background: #00E5FF; color: #0D0E15; }
+.btn-finish { background: #B000FF; color: #0D0E15; }
+.btn-completed { background: #1E2132; color: #FFF; border: 1px solid #2A2E45; cursor: help; }
+.status-btn:hover { filter: brightness(1.1); transform: scale(1.01); }
+
+/* Main UI Elements */
+.main-add-btn { display: block; width: 100%; max-width: 400px; margin: 40px auto; padding: 18px; background: #00E5FF; color: #0D0E15; border: none; border-radius: 14px; font-size: 14px; font-weight: 900; letter-spacing: 1px; cursor: pointer; box-shadow: 0 4px 15px rgba(0, 229, 255, 0.3); transition: transform 0.2s; }
+.main-add-btn:hover { transform: scale(1.02); }
+
+.minimal-credit { text-align: center; color: #4F5472; font-size: 10px; font-weight: 800; letter-spacing: 2px; opacity: 0.5; padding-bottom: 20px; }
+
+/* Modals */
+.modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(13, 14, 21, 0.95); display: flex; justify-content: center; align-items: center; z-index: 10000; }
+.modal-content { background: #151720; padding: 30px; border-radius: 20px; border: 1px solid #2A2E45; width: 100%; max-width: 500px; max-height: 90vh; overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.8); }
+.modal-header { font-size: 16px; font-weight: 900; letter-spacing: 1px; margin-bottom: 25px; text-align: center; }
+
+.input-group { display: flex; flex-direction: column; margin-bottom: 15px; }
+.row-inputs { display: flex; gap: 15px; }
+.row-inputs .input-group { flex: 1; }
+label { color: #828BB8; font-size: 11px; font-weight: 800; margin-bottom: 8px; }
+input { background: #0D0E15; border: 1px solid #2A2E45; color: #FFF; padding: 14px; border-radius: 10px; font-size: 14px; outline: none; transition: 0.2s; }
+input:focus { border-color: #00E5FF; box-shadow: 0 0 10px rgba(0, 229, 255, 0.1); }
+
+.modal-actions { display: flex; gap: 15px; margin-top: 25px; }
+.modal-btn { flex: 1; padding: 16px; border-radius: 10px; border: none; font-size: 12px; font-weight: 800; cursor: pointer; transition: 0.2s; }
+.modal-btn:hover { filter: brightness(1.1); }
+.btn-cancel { background: #2A2E45; color: #FFF; }
+.btn-save { background: #00E5FF; color: #0D0E15; }
+.btn-danger { background: #FF1744; color: #FFF; }
+
+.error-terminal { border-color: #FF1744; box-shadow: 0 0 30px rgba(255, 23, 68, 0.4); text-align: center; }
+.error-title { color: #FF1744; font-size: 18px; font-weight: 900; letter-spacing: 2px; margin-bottom: 15px; }
+.error-msg { color: #C0CAF5; font-size: 14px; line-height: 1.5; margin-bottom: 20px; }
+
+/* Contact Modal */
+.contact-header { font-size: 14px; font-weight: 900; color: #FFD700; text-align: center; margin-bottom: 10px; letter-spacing: 2px; }
+.contact-name { font-size: 24px; font-weight: 900; text-align: center; color: #FFFFFF; margin-bottom: 5px; }
+.contact-detail { font-size: 12px; color: #828BB8; text-align: center; margin-bottom: 25px; line-height: 1.8; font-weight: 600; }
+.contact-links { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.contact-link-item { background: #1E2132; color: #C0CAF5; padding: 14px; border-radius: 8px; font-size: 12px; font-weight: 800; text-align: center; text-decoration: none; transition: 0.2s; }
+.contact-link-item:hover { background: #2A2E45; color: #FFFFFF; transform: translateY(-2px); }
+
+.toast-container { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%); z-index: 99999; display: flex; flex-direction: column; gap: 10px; pointer-events: none; }
+.toast { background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(5px); color: #FFF; padding: 12px 24px; border-radius: 20px; font-size: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+.duplicate-toast { background: rgba(255, 23, 68, 0.9); box-shadow: 0 0 20px rgba(255, 23, 68, 0.5); }
